@@ -32,7 +32,7 @@ It is also interesting to look at the relationship between the number of predato
 
 ![Phase Space](http://i.imgur.com/oGEWtxG.png)
 
-In each cycle, there is a moment when the number of preys is really low and the number of predators is really high. 
+In each cycle, there is a moment when the number of preys is extremely low and the number of predators very high. 
 As Lotka-Volterra equations assume no statistical fluctuations in population numbers, the solution is relatively stable. 
 
 In a real-life situation, the number of predators and preys may have statistical fluctuations, possibly causing extintion of the prey during this part of the cycle, and therefore, extinction of the predator.
