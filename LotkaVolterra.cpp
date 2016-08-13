@@ -14,7 +14,6 @@ const double max_time = 30;
 
 const int n_iterations = max_time/step;
 
-
 double dxdt(double x, double y){
 	return x*(a - b*y);
 }
@@ -46,8 +45,6 @@ int main(void){
 	preys_file.open( preys_fileName );
 	relationship.open(relationshipName);
 	
-
-	
 	for(double i1 = 0; i1 < n_iterations * step ; i1 += step){
 		
 		predators_file << i1 << " " << x << endl;
@@ -61,11 +58,9 @@ int main(void){
 		y += step * dydt(x0,y0);
 	}
 
-	
 	predators_file.close();
 	preys_file.close();
 	relationship.close();
-	
 	
 	return 0;
 }
